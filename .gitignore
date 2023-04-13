@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea
+.vscode/
+*.swp
+*.swo
+*.orig
+*.bak
+
+# TypeScript cache
+.tsbuildinfo
