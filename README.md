@@ -44,8 +44,6 @@ const rocketIcon = (
 <SparkleButton icon={rocketIcon} />
 ```
 
-Replace yourSvgIcon with your custom SVG icon.
-
 ### Changing the Size
 
 To change the size of the button, pass the size prop to the SparkleButton component:
