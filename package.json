@@ -1,6 +1,6 @@
 {
   "name": "sparkle-button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A sparkly button similar to the Discord activities button",
   "author": "thaddg",
   "repository": "github:ThaddG/sparkle-button",
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc && npm run copy:css",
     "copy:css": "copyfiles ./*.css dist"
-  },    
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": "^18.0.0",
