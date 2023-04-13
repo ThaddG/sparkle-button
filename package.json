@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A sparkly button similar to the Discord activities button",
   "author": "thaddg",
+  "repository": "github:ThaddG/sparkle-button",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

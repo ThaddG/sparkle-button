@@ -19,7 +19,7 @@ yarn add sparkle-button
 First, import the SparkleButton component:
 
 ```tsx
-import { SparkleButton } from 'sparkle-button';
+import SparkleButton from 'sparkle-button';
 ```
 
 Then, use the SparkleButton component in your React application:
