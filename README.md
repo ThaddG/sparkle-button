@@ -2,6 +2,8 @@
 
 A customizable, animated circular button component for React applications. The SparkleButton features an icon in the center, surrounded by sparkles that animate in a clockwise rotation. The button has customizable colors, sizes, and sparkles.
 
+![Sparkle Button](https://media.discordapp.net/attachments/810326308780245045/1096225626601570464/sparkle-button.gif?width=250&height=250)
+
 ## Installation
 
 To install the SparkleButton package, run:
@@ -66,6 +68,7 @@ You can customize the background and icon colors by passing the backgroundColor,
   iconColor="#FFF"
 />
 ```
+![Changing Button's normal, hover, active colors](https://media.discordapp.net/attachments/810326308780245045/1096222817512595596/sparkle-button-color-change.gif?width=1200&height=412)
 
 ### Customizing Sparkles
 
