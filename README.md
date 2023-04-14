@@ -35,7 +35,7 @@ Then, use the SparkleButton component in your React application:
 You can customize various aspects of the SparkleButton component, such as the icon, size, colors, and more. Here are some examples:
 
 ### Changing the Icon
-
+**NOTE: If there is an issue with the size not working correctly you may have to remove the "width=" attribute from the svg**
 To change the SVG icon, pass the icon prop to the SparkleButton component:
 ```tsx
 const rocketIcon = (
@@ -45,6 +45,7 @@ const rocketIcon = (
 );
 <SparkleButton icon={rocketIcon} />
 ```
+![Changing the button's icon](https://media.discordapp.net/attachments/810326308780245045/1096232406400381038/sparkle-button-change-icon.gif?width=1200&height=422)
 
 ### Changing the Size
 
@@ -55,6 +56,7 @@ To change the size of the button, pass the size prop to the SparkleButton compon
 ```
 
 The size prop accepts a number representing the diameter of the button in pixels.
+![Changing the button's size](https://media.discordapp.net/attachments/810326308780245045/1096234837607718962/sparkle-button-change-size.gif?width=1200&height=422)
 
 ### Customizing Colors
 
@@ -79,6 +81,7 @@ To customize the sparkles, pass the sparkleColors prop to the SparkleButton comp
 ```
 
 The sparkleColors prop accepts an array of color strings.
+![Changing the button's sparkles's colors](https://media.discordapp.net/attachments/810326308780245045/1096238115619876964/sparkle-button-change-sparkle-colors.gif?width=1200&height=530)
 
 ### Positioning the Icon
 
@@ -89,6 +92,7 @@ To customize the icon's position within the button, pass the iconOffsetX and ico
 ```
 
 The iconOffsetX and iconOffsetY props accept numbers representing the horizontal and vertical offset in percentages, respectively.
+![Changing icon position](https://media.discordapp.net/attachments/810326308780245045/1096239897251164270/sparkle-button-change-icon-position.gif?width=1200&height=530)
 
 ### Stop Sparkles on Click
 
@@ -97,6 +101,7 @@ To make the sparkles stop animating after the button is clicked, pass the stopSp
 ```tsx
 <SparkleButton stopSparklesOnClick />
 ```
+![Stop sparkling after button click](https://media.discordapp.net/attachments/810326308780245045/1096242233809834086/sparkle-button-stop-sparkles.gif?width=1200&height=530)
 
 ## Props
 | Prop                | Type                    | Required | Description                                                                  | Default Value |
