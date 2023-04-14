@@ -91,7 +91,7 @@ To customize the icon's position within the button, pass the iconOffsetX and ico
 <SparkleButton iconOffsetX={-2} iconOffsetY={3} />
 ```
 
-The iconOffsetX and iconOffsetY props accept numbers representing the horizontal and vertical offset in percentages, respectively.
+The iconOffsetX and iconOffsetY props accept numbers representing the horizontal and vertical offset in percentages, respectively.\
 ![Changing icon position](https://media.discordapp.net/attachments/810326308780245045/1096239897251164270/sparkle-button-change-icon-position.gif?width=1200&height=530)
 
 ### Stop Sparkles on Click
